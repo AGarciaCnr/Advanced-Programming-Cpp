@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Arma">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Arma.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Enemigo">
+    <Position X="9" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enemigo.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hechizo">
+    <Position X="4.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAIAAAAAAACAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Hechizo.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Item">
+    <Position X="2.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAIAAACAAAAAAAAEAAAAAAAAAQEAAAAAAAA=</HashCode>
+      <FileName>Item.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Jugador">
+    <Position X="13" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Jugador.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Observer.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Partida">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAQAAAAAAAAAAAAQAAAAIAgAAAAAA=</HashCode>
+      <FileName>Partida.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Personaje">
+    <Position X="10.75" Y="0.5" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AIAAEAAQGACEAIGAAAAIhAAAAAAAAAwIAACARAUgAEA=</HashCode>
+      <FileName>Personaje.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Pocion">
+    <Position X="2.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pocion.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="atrib" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAABAAAAAAAAAAAAIAAAAAAAAAAIAA=</HashCode>
+      <FileName>Constants.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="tipo" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Constants.hpp</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
