@@ -8,11 +8,11 @@ int Arma::GetFuerza() {
 	return this->fuerza;
 }
  
-void Arma::Usar(Personaje *atacante, Personaje *atacado) {
-	/*int golpe = atacante->GetAtaque() + this->fuerza - atacado->GetDefensa();
+void Arma::Usar(Personaje* atacante, Personaje* atacado) {
+	int golpe = atacante->GetAtaque() + this->fuerza - atacado->GetDefensa();
 	if (golpe < 0) {
 		golpe = 0;
 	}
-	atacado->AlterarVida(-golpe);*/
-	std::cout << "Funcion de arma: " << nombre << std::endl;
+	atacado->AlterarVida(-golpe);
+	std::cout << atacante->GetNombre() << " ha infringido " << golpe << " de daño a " << atacado->GetNombre() << std::endl;
 }

@@ -1,4 +1,5 @@
 #include "Item.hpp"
+#include "Personaje.hpp"
 
 Item::Item(std::string nombre) {
 	this->nombre = nombre;
@@ -17,3 +18,5 @@ void Item::NotificarObservers() {
 		observadores[i]->Actualizar();
 	}
 }
+
+void Item::Usar(Personaje* p1, Personaje* p2) { }

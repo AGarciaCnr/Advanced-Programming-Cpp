@@ -17,6 +17,7 @@ protected:
 public:
 	Personaje(int vM, int a, int d, int v);
 	int GetVidaActual();
+	bool EstaVivo();
 	std::string GetNombre();
 	int GetVidaMaxima();
 	int GetAtaque();
@@ -32,5 +33,5 @@ public:
 	void Actualizar() override;
 	void EquiparItem(Item* i);
 	void DesequiparItem(Item* i);
-	void UsarItem(Item* i);
+	void UsarItem(Item* i, Personaje* enemigo);
 };

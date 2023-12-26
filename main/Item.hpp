@@ -4,6 +4,8 @@
 #include "Observer.hpp"
 #include "Constants.hpp"
 
+class Personaje;
+
 class Item {
 protected:
 	std::string nombre;
@@ -13,5 +15,5 @@ public:
 	std::string GetNombre();
 	void AgregarObserver(Observer* observador);
 	void NotificarObservers();
-	virtual void Usar() = 0;
+	virtual void Usar(Personaje* p1, Personaje* p2);
 };

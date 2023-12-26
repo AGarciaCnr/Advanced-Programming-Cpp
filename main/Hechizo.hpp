@@ -10,6 +10,6 @@ protected:
 public:
 	Hechizo(std::string nombre, int statsAlterados[4]);
 	int* GetStatsAlterados();
-	void Usar(Personaje* pAlterado);
+	void Usar(Personaje* pAlterado, Personaje* p2);
 };
 

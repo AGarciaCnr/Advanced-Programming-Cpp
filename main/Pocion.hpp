@@ -9,6 +9,6 @@ protected:
 public:
 	Pocion(std::string nombre, int curacion);
 	int GetCuracion();
-	void Usar(Personaje* curado);
+	void Usar(Personaje* curado, Personaje* p2);
 };
 

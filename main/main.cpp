@@ -2,24 +2,23 @@
 #include "Partida.hpp"
 
 int main() {
-	/*Jugador *j = new Jugador("Jugador", 100, 20, 5, 20);
-	Enemigo es[] = {
-		Enemigo("Enemigo 1", 10, 20, 5, 10),
-		Enemigo("Enemigo 2", 10, 12, 3, 10),
-		Enemigo("Enemigo 3", 10, 13, 6, 10)
+	Jugador* jugador = new Jugador("Jugador", 100, 20, 5, 20);
+	Arma* armaJugador = new Arma("Espada dorada", 15);
+	Enemigo* enemigos[] = {
+		new Enemigo("Enemigo 1", 50, 20, 5, 10),
+		new Enemigo("Enemigo 2", 50, 12, 3, 30),
+		new Enemigo("Enemigo 3", 50, 13, 6, 10)
 	};
-	int tam = sizeof(es) / sizeof(es[0]);
+	int tamEnemigos = sizeof(enemigos) / sizeof(enemigos[0]);
+	Item* items[] = {
+		new Arma("Espada", 10),
+		new Hechizo("Mejora de armadura", new int[4]{ 20, 0, 5, -2 }),
+		new Pocion("Pocion de vida", 25)
+	};
+	int tamItems = sizeof(items) / sizeof(items[0]);
 
-	Partida *p = new Partida(es, tam, j);
-	std::cout << "El ganador es " << p->Combate().GetNombre() << std::endl;*/
-	int stats[] = { 10, 20, 5, 10 };
+	Partida* partida = new Partida(jugador, armaJugador, enemigos, tamEnemigos, items, tamItems);
+	std::cout << "El ganador es " << partida->Combate().GetNombre() << std::endl;
 
-	Jugador *j = new Jugador("Jugador", 100, 20, 5, 20);
-	Arma *a = new Arma("Espada", 10);
-	Hechizo *h = new Hechizo("Bola de fuego", stats);
-	h->AgregarObserver(j);
-	h->Usar(j);
-	a->AgregarObserver(j);
-	a->Usar(j, j);
 	return 0;
 }
